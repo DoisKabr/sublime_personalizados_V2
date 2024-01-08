@@ -1,0 +1,10 @@
+.texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: calc(100vh - 200px);
+
+    font-weight: 500;
+}

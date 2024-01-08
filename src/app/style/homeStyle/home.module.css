@@ -1,0 +1,60 @@
+.mainStyle {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    /* grid-template-rows: 1fr; */
+    grid-template-areas: 
+        "slide slide slide"
+        "menu1 caneca caneca"
+        "menu1 chopp chopp"
+        "menu1 squize squize"
+        "maisProdutos maisProdutos maisProdutos"
+    ;
+    row-gap: 1rem;
+}
+.slide {
+    grid-area: slide;
+}
+.menu1 {
+    grid-area: menu1;
+}
+.caneca {
+    grid-area: caneca;
+}
+.chopp {
+    grid-area: chopp;
+}
+.squize {
+    grid-area: squize;
+}
+.moduloMaisProdutos {
+    grid-area: maisProdutos;
+}
+
+ /* Texto Padrão para Secões da pagina de Inicio */
+.textoPadrao {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--cor-secundaria);
+
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+@media (max-width: 900px) {
+    .mainStyle {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas: 
+            "slide"
+            "caneca"
+            "chopp"
+            "squize"
+            "maisProdutos"
+        ;
+        row-gap: 1rem;
+    }
+    .menu1 {
+        display: none !important;
+    }
+}

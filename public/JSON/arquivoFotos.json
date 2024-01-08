@@ -1,0 +1,430 @@
+[
+    {
+        "id": "01",
+        "categoria": "canecas",
+        "nome": "Personalizada com foto",
+        "url": "https://i.imgur.com/l9QaM17.jpg",
+        "preco": "35,00"
+    },
+    {
+        "id": "02",
+        "categoria": "canecas",
+        "nome": "Vovó é mamãe com açucar",
+        "url": "https://i.imgur.com/15wLW2X.jpg",
+        "preco": "35,00"
+    },
+    {
+        "id": "03",
+        "categoria": "canecas",
+        "nome": "Três caneca dia dos pais",
+        "url": "https://i.imgur.com/WH8ps4B.jpg",
+        "preco": "35,00"
+    },
+    {
+        "id": "04",
+        "categoria": "canecas",
+        "nome": "Guarda-me ó Deus",
+        "url": "https://i.imgur.com/pJLeOdU.jpg",
+        "preco": "35,00"
+    },
+    {
+        "id": "05",
+        "categoria": "canecas",
+        "nome": "Não tenha medo, tenha Fé",
+        "url": "https://i.imgur.com/vFxqWLT.jpg",
+        "preco": "35,00"
+    },
+    {
+        "id": "06",
+        "categoria": "canecas",
+        "nome": "Antes de tudo, Fé",
+        "url": "https://i.imgur.com/vHyWWcE.jpg",
+        "preco": "35,00"
+    },
+    {
+        "id": "07",
+        "categoria": "canecas",
+        "nome": "Jesus te ama",
+        "url": "https://i.imgur.com/trAFhLs.jpg",
+        "preco": "35,00"
+    },
+    {
+        "id": "08",
+        "categoria": "canecas",
+        "nome": "Deus tem um plano",
+        "url": "https://i.imgur.com/0ANlEDO.jpg",
+        "preco": "35,00"
+    },
+    {
+        "id": "09",
+        "categoria": "canecas",
+        "nome": "Não tenha medo, tenha Fé",
+        "url": "https://i.imgur.com/HQ84UGG.jpg",
+        "preco": "35,00"
+    },
+    {
+        "id": "10",
+        "categoria": "canecas",
+        "nome": "Lucia",
+        "url": "https://i.imgur.com/1hZk1zb.jpg",
+        "preco": "45,00"
+    },
+    {
+        "id": "11",
+        "categoria": "canecas",
+        "nome": "Mãe de gato, Gatinha é",
+        "url": "https://i.imgur.com/MqWtnmE.jpg",
+        "preco": "35,00"
+    },
+    {
+        "id": "12",
+        "categoria": "canecas",
+        "nome": "Flores",
+        "url": "https://i.imgur.com/6yixlnv.jpg",
+        "preco": "45,00"
+    },
+    {
+        "id": "14",
+        "categoria": "canecas",
+        "nome": "Tudo posso naquele que me fortalece",
+        "url": "https://i.imgur.com/QRXjPOr.jpg",
+        "preco": "45,00"
+    },
+    {
+        "id": "15",
+        "categoria": "canecas",
+        "nome": "Vania",
+        "url": "https://i.imgur.com/8l43xj8.jpg",
+        "preco": "45,00"
+    },
+    {
+        "id": "16",
+        "categoria": "canecas",
+        "nome": "Você tem muito valor para Deus",
+        "url": "https://i.imgur.com/TwRGnNA.jpg",
+        "preco": "35,00"
+    },
+    {
+        "id": "17",
+        "categoria": "canecas",
+        "nome": "O Senhor é digno de todo louvor",
+        "url": "https://i.imgur.com/Vwwn9cM.jpg",
+        "preco": "35,00"
+    },
+    {
+        "id": "18",
+        "categoria": "canecas",
+        "nome": "Seja forte e corajoso !",
+        "url": "https://i.imgur.com/4uX5cGh.jpg",
+        "preco": "35,00"
+    },
+    {
+        "id": "19",
+        "categoria": "canecas",
+        "nome": "Tudo é possível ao que crê",
+        "url": "https://i.imgur.com/vtpKwo6.jpg",
+        "preco": "35,00"
+    },
+    {
+        "id": "20",
+        "categoria": "canecas",
+        "nome": "O tempo de Deus é perfeito",
+        "url": "https://i.imgur.com/coO9pFz.jpg",
+        "preco": "35,00"
+    },
+    {
+        "id": "21",
+        "categoria": "canecas",
+        "nome": "Tenha fé , Deus te proteje !",
+        "url": "https://i.imgur.com/18TCBkI.jpg",
+        "preco": "45,00"
+    },
+    {
+        "id": "22",
+        "categoria": "canecas",
+        "nome": "Tudo posso naquele que me fortalece",
+        "url": "https://i.imgur.com/7uyFwpc.jpg",
+        "preco": "35,00"
+    },
+    {
+        "id": "23",
+        "categoria": "canecas",
+        "nome": "Luana",
+        "url": "https://i.imgur.com/WAQr07r.jpg",
+        "preco": "51,00"
+    },
+    {
+        "id": "24",
+        "categoria": "canecas",
+        "nome": "Hellen",
+        "url": "https://i.imgur.com/Jyzpm36.jpg",
+        "preco": "51,00"
+    },
+    {
+        "id": "25",
+        "categoria": "canecas",
+        "nome": "Apenas uma madrinha !",
+        "url": "https://i.imgur.com/oipzoMS.jpg",
+        "preco": "35,00"
+    },
+    {
+        "id": "26",
+        "categoria": "canecas",
+        "nome": "Canecas",
+        "url": "https://i.imgur.com/9LNZSmM.jpg",
+        "preco": "55,00"
+    },
+    {
+        "id": "27",
+        "categoria": "canecas",
+        "nome": "Canecas",
+        "url": "https://i.imgur.com/1sHVoqQ.jpg",
+        "preco": "55,00"
+    },
+    {
+        "id": "28",
+        "categoria": "canecas",
+        "nome": "Luana",
+        "url": "https://i.imgur.com/ZdY2rhn.jpg",
+        "preco": "55,00"
+    },
+    {
+        "id": "29",
+        "categoria": "canecas",
+        "nome": "Hellen",
+        "url": "https://i.imgur.com/F8teUpi.jpg",
+        "preco": "55,00"
+    },
+    {
+        "id": "30",
+        "categoria": "canecas",
+        "nome": "Tati",
+        "url": "https://i.imgur.com/GAPH9JN.jpg",
+        "preco": "55,00"
+    },
+    {
+        "id": "31",
+        "categoria": "canecas",
+        "nome": "Para uma Amiga !",
+        "url": "https://i.imgur.com/T5q7tIK.jpg",
+        "preco": "35,00"
+    },
+    {
+        "id": "32",
+        "categoria": "canecas",
+        "nome": "Canecas",
+        "url": "https://i.imgur.com/gR5ep8B.jpg",
+        "preco": "55,00"
+    },
+    {
+        "id": "33",
+        "categoria": "canecas",
+        "nome": "Canecas",
+        "url": "https://i.imgur.com/WJngwlY.jpg",
+        "preco": "55,00"
+    },
+    {
+        "id": "34",
+        "categoria": "canecas",
+        "nome": "Alessandra",
+        "url": "https://i.imgur.com/CvM3jY6.jpg",
+        "preco": "55,00"
+    },
+    {
+        "id": "35",
+        "categoria": "canecas",
+        "nome": "Eliana sanders",
+        "url": "https://i.imgur.com/uQJCZfw.jpg",
+        "preco": "55,00"
+    },
+
+
+
+
+
+    {
+        "id": "01",
+        "categoria": "chopp",
+        "nome": "Kit Canecas de chopp personalizadas",
+        "url": "https://i.imgur.com/IREWOgl.jpg",
+        "preco": "51,00"
+    },
+    {
+        "id": "02",
+        "categoria": "chopp",
+        "nome": "Kit Canecas de chopp personalizadas",
+        "url": "https://i.imgur.com/y1OSvcH.jpg",
+        "preco": "51,00"
+    },
+    {
+        "id": "03",
+        "categoria": "chopp",
+        "nome": "Kit Canecas de chopp personalizadas",
+        "url": "https://i.imgur.com/sMAeVrZ.jpg",
+        "preco": "51,00"
+    },
+    {
+        "id": "04",
+        "categoria": "chopp",
+        "nome": "Kit Canecas de chopp personalizadas",
+        "url": "https://i.imgur.com/0AzExOe.jpg",
+        "preco": "51,00"
+    },
+    {
+        "id": "05",
+        "categoria": "chopp",
+        "nome": "Kit Canecas de chopp personalizadas",
+        "url": "https://i.imgur.com/mn8fMFM.jpg",
+        "preco": "51,00"
+    },
+    {
+        "id": "06",
+        "categoria": "chopp",
+        "nome": "Kit Canecas de chopp personalizadas",
+        "url": "https://i.imgur.com/VlIkS4k.jpg",
+        "preco": "51,00"
+    },
+
+
+
+
+
+    {
+        "id": "01",
+        "categoria": "Squize",
+        "nome": "Garrafas Squize personalizadas",
+        "url": "https://i.imgur.com/dplWXT2.jpg",
+        "preco": "39,00"
+    },
+    {
+        "id": "02",
+        "categoria": "Squize",
+        "nome": "Garrafas Squize personalizadas",
+        "url": "https://i.imgur.com/Pypi2JB.jpg",
+        "preco": "39,00"
+    },
+    {
+        "id": "03",
+        "categoria": "Squize",
+        "nome": "Garrafas Squize personalizadas",
+        "url": "https://i.imgur.com/lUJIqZA.jpg",
+        "preco": "39,00"
+    },
+    {
+        "id": "04",
+        "categoria": "Squize",
+        "nome": "Garrafas Squize personalizadas",
+        "url": "https://i.imgur.com/dWT7cvN.jpg",
+        "preco": "39,00"
+    },
+    {
+        "id": "05",
+        "categoria": "Squize",
+        "nome": "Garrafas Squize personalizadas",
+        "url": "https://i.imgur.com/kF0Iqwg.jpg",
+        "preco": "39,00"
+    },
+    {
+        "id": "06",
+        "categoria": "Squize",
+        "nome": "Garrafas Squize personalizadas",
+        "url": "https://i.imgur.com/9F3lOyG.jpg",
+        "preco": "39,00"
+    },
+    {
+        "id": "07",
+        "categoria": "Squize",
+        "nome": "Garrafas Squize personalizadas",
+        "url": "https://i.imgur.com/W4mt2Ah.jpg",
+        "preco": "39,00"
+    },
+    {
+        "id": "08",
+        "categoria": "Squize",
+        "nome": "Garrafas Squize personalizadas",
+        "url": "https://i.imgur.com/vjHSTQ7.jpg",
+        "preco": "39,00"
+    },
+    {
+        "id": "09",
+        "categoria": "Squize",
+        "nome": "Garrafas Squize personalizadas",
+        "url": "https://i.imgur.com/pCulFLx.jpg",
+        "preco": "39,00"
+    },
+    {
+        "id": "10",
+        "categoria": "Squize",
+        "nome": "Garrafas Squize personalizadas",
+        "url": "https://i.imgur.com/Wv5pEIx.jpg",
+        "preco": "39,00"
+    },
+    {
+        "id": "11",
+        "categoria": "Squize",
+        "nome": "Garrafas Squize personalizadas",
+        "url": "https://i.imgur.com/WAGiwOd.jpg",
+        "preco": "39,00"
+    },
+
+
+
+
+
+    {
+        "id": "01",
+        "categoria": "promocoes",
+        "nome": "Promoções personalizados",
+        "url": "https://i.imgur.com/0yQvpQq.jpg",
+        "preco": "40,00"
+    },
+    {
+        "id": "02",
+        "categoria": "promocoes",
+        "nome": "Promoções personalizados",
+        "url": "https://i.imgur.com/fn57pU9.jpg",
+        "preco": "40,00"
+    },
+    {
+        "id": "03",
+        "categoria": "promocoes",
+        "nome": "Promoções personalizados",
+        "url": "https://i.imgur.com/8hAjK5O.jpg",
+        "preco": "40,00"
+    },
+    {
+        "id": "04",
+        "categoria": "promocoes",
+        "nome": "Promoções personalizados",
+        "url": "https://i.imgur.com/hTgo0vj.jpg",
+        "preco": "40,00"
+    },
+    {
+        "id": "05",
+        "categoria": "promocoes",
+        "nome": "Promoções personalizados",
+        "url": "https://i.imgur.com/6BCZgv6.jpg",
+        "preco": "40,00"
+    },
+    {
+        "id": "06",
+        "categoria": "promocoes",
+        "nome": "Promoções personalizados",
+        "url": "https://i.imgur.com/mqeK6jz.jpg",
+        "preco": "40,00"
+    },
+    {
+        "id": "07",
+        "categoria": "promocoes",
+        "nome": "Promoções personalizados",
+        "url": "https://i.imgur.com/jrKnWVi.jpg",
+        "preco": "40,00"
+    },
+    {
+        "id": "08",
+        "categoria": "promocoes",
+        "nome": "Promoções personalizados",
+        "url": "https://i.imgur.com/dWs39tF.jpg",
+        "preco": "40,00"
+    }
+]

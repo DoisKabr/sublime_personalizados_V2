@@ -1,0 +1,122 @@
+.ulClass {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.liClass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-width: 120px;
+    height: 100%;
+
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+.liClass a {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-width: 120px;
+    height: 100%;
+    text-decoration: none;
+
+    color: #fff;
+
+    transition: all .5s ease;
+}
+.liClass a:hover {
+    color: var(--cor-secundaria);
+    background-color: #fff;
+}
+
+@media (max-width: 800px) {
+    .ulClass {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        width: 70px;
+        height: 70px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        border: 2px solid var(--cor-secundaria);
+        border-radius: 20px;
+        background-color: #fff;
+
+        padding: .5em;
+        gap: 1em;
+
+        overflow: hidden;
+        z-index: 10;
+
+        transition: all .5s ease;
+    }
+    .ulClass:hover {
+        width: 90%;
+        height: 80px;
+        bottom: 10px;
+        right: 20px;
+        justify-content: flex-start;
+    }
+    .ulClass::before {
+        content: "+";
+        position: absolute;
+        top: 0px;
+        right: 0px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 70px;
+        height: 70px;
+
+        font-size: 2em;
+        font-weight: bold;
+        color: var(--cor-secundaria);
+        background-color: #fff;
+    }
+    .ulClass:hover::before {
+        display: flex;
+    }
+    
+    .liClass {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        min-width: 120px;
+        height: 100%;
+    
+        font-size: 1.5rem;
+        list-style: none;
+
+        border-top: 2px solid var(--cor-secundaria);
+        border-radius: 20px;
+    }
+    
+    .liClass a {    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        min-width: 120px;
+        height: 100%;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 20px;
+    
+        color: var(--cor-secundaria);
+        transition: all .5s ease;
+    }
+    .liClass a:hover {
+        color: var(--cor-secundaria);
+        background-color: #fff;
+    }
+}

@@ -1,0 +1,50 @@
+.sectionFooter {
+    width: 100%;
+    margin: 4em 0rem 0rem 0rem;
+    padding: 5em 0rem;
+
+    background-color: var(--cor-principal);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.textoSobre {
+    max-width: 400px;
+    height: 100%;
+
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 100;
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0em 0em 2em 0em;
+}
+.imgSublime {
+    width: 100px;
+    height: 100px;
+
+    border-radius: 20px;
+    filter: drop-shadow(0px 0px 5px #fff);
+}
+
+@media (max-width: 800px) {
+    .textoSobre {
+        max-width: 300px;
+        height: 100%;
+    
+        font-size: 1em;
+        text-align: center;
+        font-weight: 100;
+        color: #fff;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

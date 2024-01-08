@@ -1,0 +1,41 @@
+:root {
+  --cor-principal: #FD35DE;
+  --cor-secundaria: #FF62E6;
+  --cor-secundariaTransparente: rgba(255, 98, 230, .5);
+  --cor-texto: #FF8FED;
+  --cor-paraFundo: #FFC5F6;
+
+  --swiper-navigation-color: #FD35DE;
+  --swiper-pagination-color: #FD35DE;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.tituloInicial {
+  text-align: center;
+  padding: 2rem 5rem;
+}
+
+/* Edição da ScrollBar */
+
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--cor-secundaria);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}

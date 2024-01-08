@@ -1,0 +1,120 @@
+.secMaisProdutos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 100%;
+
+    overflow: hidden;
+}
+
+.divItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    width: 100%;
+    max-width: 600px;
+    height: 250px;
+    margin: 1rem 0rem;
+
+    border: 1px solid #aaa;
+    border-radius: 20px;
+
+    text-decoration: none;
+
+    overflow: hidden;
+
+    transition: all .5s ease;
+}
+.divItem:hover {
+    transform: scale(1.05);
+}
+
+.imagemItem {
+    width: 50%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.textoItem {
+    width: 100%;
+    max-width: 250px;
+
+    color: #000;
+    text-align: start;
+    font-size: 1.1rem;
+
+    margin: 0rem 1rem;
+}
+
+.linkMaisProdutos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    background-color: var(--cor-secundaria);
+
+    text-decoration: none;
+
+    width: 200px;
+    height: 100%;
+
+    transition: all .5s ease;
+}
+
+.linkMaisProdutos:hover {
+    background-color: #fff;
+    color: var(--cor-secundaria);
+    font-weight: bold;
+}
+
+.textoVerTodosOsProdutos {
+    display: grid;
+    place-items: center;
+
+    width: 50%;
+    max-width: 200px;
+    aspect-ratio: 16/5;
+
+    color: #fff !important;
+    text-decoration: none;
+    background-color: var(--cor-secundaria);
+    border-radius: 20px;
+
+    transition: all .5s ease
+}
+
+.textoVerTodosOsProdutos:hover {
+    background-color: #fff;
+    color: var(--cor-secundaria) !important;
+    font-weight: bold;
+}
+
+@media (max-width: 900px) {
+    .divItem {
+        width: 98%;
+        height: 200px;
+        margin: 1rem 0rem;
+
+        border: .1px solid #999797;
+    }
+
+    .textoItem {
+        text-align: start;
+        font-size: .8rem;
+    }
+
+    .linkMaisProdutos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+}
