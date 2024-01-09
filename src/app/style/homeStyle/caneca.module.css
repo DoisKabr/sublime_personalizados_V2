@@ -16,25 +16,49 @@
 
     transition: all .5s ease;
 }
+
 .divCaneca:hover {
     transform: scale(1.05);
 }
+
 .imgCaneca {
     width: 100%;
     min-height: 50%;
 
     object-fit: cover;
 }
+
 .textoCaneca {
-    margin: 2rem;
-    height: 100px;
+    margin: 1rem;
+    padding: 1rem;
+    flex-grow: 1;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 
     color: #000;
     font-size: 1.2rem;
     font-weight: 500;
-    
+
     overflow: hidden;
 }
+
+.precoCaneca {
+    width: 100%;
+    text-align: right;
+    color: var(--cor-secundaria);
+    padding: 1.3rem;
+    flex-grow: 1;
+}
+
+.precoCaneca span {
+    color: #fff;
+    background-color: rgb(0, 255, 0);
+    font-weight: bold;
+    border-radius: 20px;
+
+    padding: .5rem;
+}
+
 .linkCaneca {
     display: flex;
     align-items: center;
@@ -46,10 +70,11 @@
     background-color: var(--cor-secundaria);
 
     width: 100%;
-    height: 100px;
+    height: 150px;
 
     transition: all .5s ease;
 }
+
 .linkCaneca:hover {
     background-color: #fff;
     color: var(--cor-secundaria);
@@ -66,19 +91,31 @@
         width: 150px;
         height: 200px;
         margin: 0 auto;
-    
+
         border-radius: 20px;
         box-shadow: 0px 0px 5px #aaa;
     }
+
     .imgCaneca {
         width: 100%;
         height: 50%;
-    
+
         object-fit: cover;
     }
+
     .textoCaneca {
-        margin: 1rem;
-        font-size: 1rem;
+        margin: .3rem;
+        font-size: .8rem;
         font-weight: 500;
+        padding: .6rem 1rem;
+    }
+
+    .precoCaneca {
+        width: 100%;
+        max-height: 90px;
+        font-size: .7rem;
+        text-align: right;
+        color: var(--cor-secundaria);
+        padding: 1rem;
     }
 }

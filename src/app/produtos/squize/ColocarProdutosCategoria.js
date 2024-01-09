@@ -7,7 +7,7 @@ import itens from "../../../../public/JSON/arquivoFotos.json"
 
 import style from "../../style/produtos.module.css"
 
-export default function ColocarProdutosCategoria( props ) {
+export default function ColocarProdutosCategoria(props) {
     return (
         <>
             {
@@ -35,6 +35,17 @@ export default function ColocarProdutosCategoria( props ) {
                             el.nome
                         )
 
+                        const spanPreco = createElement("span", {
+                            className: style.spanProduto
+                        },
+                            "R$ " + el.preco
+                        )
+                        const produtoPreco = createElement("h3", {
+                            className: style.precoProduto
+                        },
+                            "Por apenas ", spanPreco
+                        )
+
                         const verMais = createElement("div", {
                             className: style.buttonVerMais,
                             onClick: () => { console.log(el) }
@@ -49,6 +60,7 @@ export default function ColocarProdutosCategoria( props ) {
                         },
                             imgImage,
                             produtoTitulo,
+                            produtoPreco,
                             verMais)
                     }
                 })

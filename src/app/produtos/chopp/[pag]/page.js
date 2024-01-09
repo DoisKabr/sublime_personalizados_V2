@@ -8,6 +8,8 @@ import MaisProdutos from "./maisProdutos"
 
 import urlSite1 from "../../../../../funcoes/urlSite"
 
+import Link from "next/link"
+
 let produto = {}
 
 export async function generateMetadata({ params }) {
@@ -41,6 +43,7 @@ export default function Page({ params }) {
             produto.nome = el.nome
             produto.categoria = el.categoria
             produto.url = el.url
+            produto.preco = el.preco
         }
     })
 
@@ -51,7 +54,8 @@ export default function Page({ params }) {
                 <div className={style.divConteudo}>
                     <h5>Categoria: <p className={style.letraInicialDestaque}>{produto.categoria}</p></h5>
                     <h2 className={style.tituloDescTexto}>Titulo: {produto.nome}</h2>
-                    <a href={`https://wa.me/5511942164529?text=Olá,%20Gostaria%20de%20saber%20o%20preço%20das%20${produto.categoria}%20!`} className={style.botaoEntrarEmContato}>Entrar em Contato !</a>
+                    <h3 className={style.textoPrecoProduto}>Por apenas: <span>R$ {produto.preco}</span></h3>
+                    <Link href={`https://wa.me/5511942164529?text=Olá,%20Gostaria%20de%20saber%20o%20preço%20das%20${produto.categoria}%20!`} className={style.botaoEntrarEmContato}>Entrar em Contato !</Link>
                 </div>
             </section>
             <section className={style.sectionMaisInformacoes}>

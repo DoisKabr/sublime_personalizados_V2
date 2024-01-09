@@ -33,6 +33,18 @@ export default function ColocarProdutos() {
             stringTema,
             el.nome
           )
+          
+          // <h3 className={styleCaneca.precoCaneca}>Por apenas: <span>R$ {el.preco}</span></h3>
+          const spanPreco = createElement("span", {
+            className: style.spanProduto
+          },
+          "R$ " + el.preco
+          )
+          const produtoPreco = createElement("h3", {
+            className: style.precoProduto
+          },
+          "Por apenas " , spanPreco
+          )
 
           const verMais = createElement("div", {
             className: style.buttonVerMais,
@@ -48,6 +60,7 @@ export default function ColocarProdutos() {
           },
             imgImage,
             produtoTitulo,
+            produtoPreco,
             verMais)
         })
       }

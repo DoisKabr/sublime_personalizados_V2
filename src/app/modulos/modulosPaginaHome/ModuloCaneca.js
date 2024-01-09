@@ -43,6 +43,7 @@ export default function ModuloCaneca() {
                                         <Link href={"/produtos/canecas/" + el.categoria + el.id} className={styleCaneca.divCaneca}>
                                             <img src={el.url} className={styleCaneca.imgCaneca} />
                                             <h5 className={styleCaneca.textoCaneca}>{el.nome}</h5>
+                                            <h3 className={styleCaneca.precoCaneca}>Por apenas: <span>R$ {el.preco}</span></h3>
                                             <div className={styleCaneca.linkCaneca}>Ver Mais...</div>
                                         </Link>
                                     </SwiperSlide>

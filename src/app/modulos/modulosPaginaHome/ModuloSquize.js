@@ -42,6 +42,7 @@ export default function ModuloSquize(props) {
                                         <Link href={`/produtos/${el.categoria.toLowerCase()}/` + el.categoria + el.id} className={styleSquize.divSquize}>
                                             <img src={el.url} className={styleSquize.imgSquize} />
                                             <h5 className={styleSquize.textoSquize}>{el.nome}</h5>
+                                            <h3 className={styleSquize.precoSquize}>Por apenas: <span>R$ {el.preco}</span></h3>
                                             <div className={styleSquize.linkSquize}>Ver Mais...</div>
                                         </Link>
                                     </SwiperSlide>

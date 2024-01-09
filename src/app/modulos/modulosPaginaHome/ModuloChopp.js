@@ -42,6 +42,7 @@ export default function ModuloChopp(props) {
                                         <Link href={"/produtos/chopp/" + el.categoria + el.id} className={styleChopp.divChopp}>
                                             <img src={el.url} className={styleChopp.imgChopp} />
                                             <h5 className={styleChopp.textoChopp}>{el.nome}</h5>
+                                            <h3 className={styleChopp.precoChopp}>Por apenas: <span>R$ {el.preco}</span></h3>
                                             <div className={styleChopp.linkChopp}>Ver Mais...</div>
                                         </Link>
                                     </SwiperSlide>
